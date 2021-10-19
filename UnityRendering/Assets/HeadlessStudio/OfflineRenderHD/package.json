@@ -1,0 +1,17 @@
+{
+  "description": "Offline Render HD, is a tool to help export frames from the Unity HD shader pipeline, with support for some of the exposed debug vies. Exports to layered OpenEXR, PNG and MP4, in normal and 360 render.",
+  "displayName": "Offline Render HD",
+  "name": "headless.studio.offline-render-hd",
+  "unity": "2018.3",
+  "version": "2.7.1",
+  "category": "camera",
+  "keywords": [
+    "render",
+    "openexr",
+    "passes"
+  ],
+  "dependencies": {
+    "com.unity.render-pipelines.high-definition": "7.1.0",
+    "com.unity.render-pipelines.core": "7.1.0"
+  }
+}

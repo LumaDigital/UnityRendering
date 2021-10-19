@@ -1,0 +1,1280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7275061911828406013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061911828406012}
+  - component: {fileID: 7275061911828406014}
+  - component: {fileID: 7275061911828406015}
+  m_Layer: 0
+  m_Name: Crowd Row 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061911828406012
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061911828406013}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -30.685, y: 3.0316, z: 61.341}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061911828406014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061911828406013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.242473, y: 0, z: 3.3992603}
+  - {x: 11.497427, y: 0, z: 4.266078}
+  - {x: 14.752381, y: 0, z: 5.1328955}
+  - {x: 19.974617, y: 0, z: 6.1218653}
+  - {x: 23.865093, y: 0, z: 6.192217}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061911828406015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061911828406013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 31
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061911907320704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061911907320707}
+  - component: {fileID: 7275061911907320717}
+  - component: {fileID: 7275061911907320706}
+  m_Layer: 0
+  m_Name: Crowd Row 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061911907320707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061911907320704}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -30.003, y: 2.6148, z: 60.161}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061911907320717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061911907320704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.003108, y: 0, z: 3.364323}
+  - {x: 11.258062, y: 0, z: 4.2311406}
+  - {x: 14.513017, y: 0, z: 5.0979586}
+  - {x: 19.398302, y: 0, z: 5.9908304}
+  - {x: 23.288778, y: 0, z: 6.061182}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061911907320706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061911907320704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 30
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061912094429486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912094429481}
+  - component: {fileID: 7275061912094429483}
+  - component: {fileID: 7275061912094429480}
+  m_Layer: 0
+  m_Name: Crowd Row 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912094429481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912094429486}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.001, y: 4.755, z: 66.188}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912094429483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912094429486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.584349, y: 0, z: 3.6110973}
+  - {x: 12.690666, y: 0, z: 4.6155863}
+  - {x: 16.796984, y: 0, z: 5.620075}
+  - {x: 22.000381, y: 0, z: 6.567419}
+  - {x: 25.890858, y: 0, z: 6.6377707}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912094429480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912094429486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 35
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061912130637729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912130637728}
+  - component: {fileID: 7275061912130637730}
+  - component: {fileID: 7275061912130637731}
+  m_Layer: 0
+  m_Name: Crowd Row 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912130637728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912130637729}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -29.462, y: 2.198, z: 58.931}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912130637730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912130637729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 7.7381763, y: 0, z: 3.2951748}
+  - {x: 10.993131, y: 0, z: 4.1619925}
+  - {x: 14.248085, y: 0, z: 5.0288105}
+  - {x: 18.931177, y: 0, z: 5.8737755}
+  - {x: 22.821653, y: 0, z: 5.944127}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912130637731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912130637729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 29
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061912243312418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912243312429}
+  m_Layer: 0
+  m_Name: Crowd Group
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912243312429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912243312418}
+  m_LocalRotation: {x: -0, y: -0.4995298, z: -0, w: -0.8662967}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7275061913429216359}
+  - {fileID: 7275061912809416809}
+  - {fileID: 7275061912257275162}
+  - {fileID: 7275061913433357768}
+  - {fileID: 7275061912130637728}
+  - {fileID: 7275061911907320707}
+  - {fileID: 7275061911828406012}
+  - {fileID: 7275061913592479284}
+  - {fileID: 7275061912433142308}
+  - {fileID: 7275061912449656835}
+  - {fileID: 7275061912094429481}
+  - {fileID: 7275061912423088048}
+  - {fileID: 7275061912266969125}
+  - {fileID: 7275061913702895406}
+  - {fileID: 7275061912306777711}
+  - {fileID: 7275061913364745054}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -300.062, z: 0}
+--- !u!1 &7275061912257275163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912257275162}
+  - component: {fileID: 7275061912257275140}
+  - component: {fileID: 7275061912257275141}
+  m_Layer: 0
+  m_Name: Crowd Row 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912257275162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912257275163}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.315, y: 1.3645, z: 56.538}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912257275140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912257275163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 7.067403, y: 0, z: 3.0750537}
+  - {x: 10.322357, y: 0, z: 3.9418714}
+  - {x: 13.5773115, y: 0, z: 4.808689}
+  - {x: 17.970598, y: 0, z: 5.62435}
+  - {x: 21.861074, y: 0, z: 5.6947017}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912257275141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912257275163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 27
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061912266969146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912266969125}
+  - component: {fileID: 7275061912266969127}
+  - component: {fileID: 7275061912266969124}
+  m_Layer: 0
+  m_Name: Crowd Row 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912266969125
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912266969146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -34.059, y: 5.519, z: 68.702}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912266969127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912266969146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 9.053719, y: 0, z: 3.8016224}
+  - {x: 13.212327, y: 0, z: 4.893053}
+  - {x: 17.370935, y: 0, z: 5.9844837}
+  - {x: 22.86542, y: 0, z: 6.7353377}
+  - {x: 26.755896, y: 0, z: 6.8056893}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912266969124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912266969146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 37
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061912306777708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912306777711}
+  - component: {fileID: 7275061912306777705}
+  - component: {fileID: 7275061912306777710}
+  m_Layer: 0
+  m_Name: Crowd Row 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912306777711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912306777708}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.122, y: 6.348, z: 71.113}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912306777705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912306777708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.378493, y: 0, z: 3.7396464}
+  - {x: 13.362559, y: 0, z: 4.980949}
+  - {x: 18.346626, y: 0, z: 6.2222514}
+  - {x: 23.690342, y: 0, z: 6.9267306}
+  - {x: 27.580818, y: 0, z: 6.997082}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912306777710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912306777708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 39
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061912423088049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912423088048}
+  - component: {fileID: 7275061912423088050}
+  - component: {fileID: 7275061912423088051}
+  m_Layer: 0
+  m_Name: Crowd Row 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912423088048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912423088049}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -33.526, y: 5.11, z: 67.458}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912423088050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912423088049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.150057, y: 0, z: 3.5770283}
+  - {x: 12.534426, y: 0, z: 4.6506224}
+  - {x: 16.918795, y: 0, z: 5.7242165}
+  - {x: 22.418934, y: 0, z: 6.6233897}
+  - {x: 26.30941, y: 0, z: 6.6937413}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912423088051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912423088049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 36
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061912433142309
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912433142308}
+  - component: {fileID: 7275061912433142310}
+  - component: {fileID: 7275061912433142311}
+  m_Layer: 0
+  m_Name: Crowd Row 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912433142308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912433142309}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.84, y: 3.86, z: 63.792}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912433142310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912433142309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.045475, y: 0, z: 3.4032393}
+  - {x: 12.273603, y: 0, z: 4.511925}
+  - {x: 16.501732, y: 0, z: 5.620611}
+  - {x: 20.995657, y: 0, z: 6.3155303}
+  - {x: 24.886133, y: 0, z: 6.385882}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912433142311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912433142309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 33
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061912449656832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912449656835}
+  - component: {fileID: 7275061912449656845}
+  - component: {fileID: 7275061912449656834}
+  m_Layer: 0
+  m_Name: Crowd Row 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912449656835
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912449656832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -32.49, y: 4.281, z: 64.95}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912449656845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912449656832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.323521, y: 0, z: 3.472318}
+  - {x: 11.578475, y: 0, z: 4.3391356}
+  - {x: 14.833429, y: 0, z: 5.2059536}
+  - {x: 21.55439, y: 0, z: 6.4554706}
+  - {x: 25.444866, y: 0, z: 6.525822}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912449656834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912449656832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 34
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061912809416814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061912809416809}
+  - component: {fileID: 7275061912809416811}
+  - component: {fileID: 7275061912809416808}
+  m_Layer: 0
+  m_Name: Crowd Row 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061912809416809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912809416814}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -27.604, y: 0.94772, z: 55.392}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061912809416811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912809416814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 6.615694, y: 0, z: 2.8712468}
+  - {x: 9.870648, y: 0, z: 3.7380645}
+  - {x: 13.125603, y: 0, z: 4.6048822}
+  - {x: 17.446093, y: 0, z: 5.459052}
+  - {x: 21.336569, y: 0, z: 5.5294037}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061912809416808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061912809416814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 26
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061913364745055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061913364745054}
+  - component: {fileID: 7275061913364745048}
+  - component: {fileID: 7275061913364745049}
+  m_Layer: 0
+  m_Name: Crowd Row 16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061913364745054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913364745055}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -35.686, y: 6.798, z: 72.361}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061913364745048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913364745055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.94515, y: 0, z: 3.564249}
+  - {x: 12.911727, y: 0, z: 4.768845}
+  - {x: 16.878304, y: 0, z: 5.973441}
+  - {x: 24.145922, y: 0, z: 6.995507}
+  - {x: 28.036398, y: 0, z: 7.0658584}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061913364745049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913364745055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 40
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061913429216356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061913429216359}
+  - component: {fileID: 7275061913429216353}
+  - component: {fileID: 7275061913429216358}
+  m_Layer: 0
+  m_Name: Crowd Row 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061913429216359
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913429216356}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.932, y: 0.53095, z: 54.256}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061913429216353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913429216356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 6.5451097, y: 0, z: 2.8840852}
+  - {x: 9.800064, y: 0, z: 3.750903}
+  - {x: 13.055018, y: 0, z: 4.6177206}
+  - {x: 16.892757, y: 0, z: 5.2949114}
+  - {x: 20.783234, y: 0, z: 5.365263}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061913429216358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913429216356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 15
+  CrowdSpawnCount: 25
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061913433357769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061913433357768}
+  - component: {fileID: 7275061913433357770}
+  - component: {fileID: 7275061913433357771}
+  m_Layer: 0
+  m_Name: Crowd Row 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061913433357768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913433357769}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.866, y: 1.7813, z: 57.77}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061913433357770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913433357769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 7.242592, y: 0, z: 3.1311593}
+  - {x: 10.497546, y: 0, z: 3.997977}
+  - {x: 13.752501, y: 0, z: 4.8647947}
+  - {x: 18.471224, y: 0, z: 5.731517}
+  - {x: 22.3617, y: 0, z: 5.8018684}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061913433357771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913433357769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 28
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 1
+--- !u!1 &7275061913592479285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061913592479284}
+  - component: {fileID: 7275061913592479286}
+  - component: {fileID: 7275061913592479287}
+  m_Layer: 0
+  m_Name: Crowd Row 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061913592479284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913592479285}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -31.295, y: 3.4483, z: 62.548}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061913592479286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913592479285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 7.906458, y: 0, z: 3.3686314}
+  - {x: 12.273595, y: 0, z: 4.5119023}
+  - {x: 16.640732, y: 0, z: 5.6551733}
+  - {x: 20.486816, y: 0, z: 6.2315774}
+  - {x: 24.377293, y: 0, z: 6.301929}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061913592479287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913592479285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 32
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0
+--- !u!1 &7275061913702895407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7275061913702895406}
+  - component: {fileID: 7275061913702895400}
+  - component: {fileID: 7275061913702895401}
+  m_Layer: 0
+  m_Name: Crowd Row 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7275061913702895406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913702895407}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -34.61, y: 5.955, z: 69.9}
+  m_LocalScale: {x: 1.163, y: 1.16, z: 1.16}
+  m_Children: []
+  m_Father: {fileID: 7275061912243312429}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7275061913702895400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913702895407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b154883273c2845f39445c8015d81639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {x: 0, y: 0, z: 0}
+  - {x: 3.0863345, y: 0, z: 1.4246808}
+  - {x: 8.480354, y: 0, z: 3.74473}
+  - {x: 12.9604, y: 0, z: 4.8701515}
+  - {x: 17.440445, y: 0, z: 5.995573}
+  - {x: 23.282122, y: 0, z: 6.8547773}
+  - {x: 27.172598, y: 0, z: 6.925129}
+  modes: 000000000200000000000000
+  loop: 0
+--- !u!114 &7275061913702895401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7275061913702895407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 274fa94a9671a674d9bb53f8c2ae1476, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CrowdGizmoMesh: {fileID: -977144520277808123, guid: 8bfee2a0a7b97af4bac4fc94d8d774ae,
+    type: 3}
+  ChairMeshGizmo: {fileID: -1438421871309224668, guid: 198525690076cda48a81a8a874a38647,
+    type: 3}
+  CrowdScale: 0.55
+  ChairScale: 1
+  CrowdPositionOffset: {x: 0, y: -0.5, z: 0.3}
+  EmptySeatPercentage: 25
+  CrowdSpawnCount: 38
+  CrowdLookatTransform: {fileID: 0}
+  CastShadows: 0

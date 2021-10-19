@@ -1,0 +1,6 @@
+<build branchName="master">
+	<buildType id="VSE_Unity_2019_VisionGenerator"/>
+	<properties>
+		<property name="scene_file_name" value="Test"/>
+	</properties>
+</build>

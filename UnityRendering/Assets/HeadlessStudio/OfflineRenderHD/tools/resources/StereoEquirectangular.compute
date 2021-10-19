@@ -1,0 +1,84 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+RWTexture2D<float4> result;
+StructuredBuffer<float> lut;
+Texture2D<float4> rightL;
+Texture2D<float4> leftL;
+Texture2D<float4> upL;
+Texture2D<float4> downL;
+Texture2D<float4> frontL;
+Texture2D<float4> backL;
+
+Texture2D<float4> rightR;
+Texture2D<float4> leftR;
+Texture2D<float4> upR;
+Texture2D<float4> downR;
+Texture2D<float4> frontR;
+Texture2D<float4> backR;
+
+SamplerState samplerfrontL;
+
+uint width;
+uint height; 
+
+[numthreads(8,8,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	int faceIndex = lut[3 * (width * id.y + id.x) + 2];
+	float u = lut[3 * (width * id.y + id.x)];
+	float v = lut[3 * (width * id.y + id.x) + 1];
+	float2 uv = float2(u, 1.0 - v);
+	float2 xy = float2(id.x, id.y);
+
+	if (0 == faceIndex)
+	{
+		result[xy] = rightL.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (1 == faceIndex)
+	{
+		result[xy] = leftL.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (2 == faceIndex)
+	{
+		result[xy] = upL.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (3 == faceIndex)
+	{
+		result[xy] = downL.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (4 == faceIndex)
+	{
+		result[xy] = frontL.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (5 == faceIndex)
+	{
+		result[xy] = backL.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (6 == faceIndex)
+	{
+		result[xy] = rightR.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (7 == faceIndex)
+	{
+		result[xy] = leftR.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (8 == faceIndex)
+	{
+		result[xy] = upR.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (9 == faceIndex)
+	{
+		result[xy] = downR.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (10 == faceIndex)
+	{
+		result[xy] = frontR.SampleLevel(samplerfrontL, uv, 0);
+	}
+	else if (11 == faceIndex)
+	{
+		result[xy] = backR.SampleLevel(samplerfrontL, uv, 0);
+	}
+}

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &39480497466239903
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 175038343600327735, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010738102513977180, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3242969377920557641, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3257698594610658997, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3326768098824742247, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735560581352302783, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782713170500105442, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4312657045235679483, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554605124137905752, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_Name
+      value: Batsman
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580323186853807523, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4973565679521654755, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4996645126042359912, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467716768504127787, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210708261204501945, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7210708261204501945, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344800384021455531, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7798066641645949550, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844716797603924616, guid: d85b87979bcd84047a448d10c2f543b5,
+        type: 3}
+      propertyPath: m_TagString
+      value: TeamBKit
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d85b87979bcd84047a448d10c2f543b5, type: 3}

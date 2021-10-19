@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &3804408288695834777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4718687725384171144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47cfe226d8cb9649988cbf6885b4c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LookAtTarget: {fileID: 0}
+  sitAnims:
+  - {fileID: 7400000, guid: 99f4ee5d062c228488385acddb1abf3d, type: 2}
+  - {fileID: 7400000, guid: 5d53b85a2c268e34182170f45a38c4f8, type: 2}
+  - {fileID: 7400000, guid: 17f708ac6c099254ea2b02ae29b24c60, type: 2}
+  - {fileID: 7400000, guid: ba9a274618f437844bceee780d3bc4a0, type: 2}
+  - {fileID: 7400000, guid: 7ef9cc31a85751b42a0ce1340ea648c7, type: 2}
+  sitCheerAnims:
+  - {fileID: 7400000, guid: adc5287456036b243a5668a4f892099a, type: 2}
+  - {fileID: 7400000, guid: a4e23dc25027f5c4c889c064eb3c3cf9, type: 2}
+  - {fileID: 7400000, guid: d17b0e0e458c431479b32bb837c89361, type: 2}
+  - {fileID: 7400000, guid: e8ec1bb7a2846184fbce2228be51d968, type: 2}
+  - {fileID: 7400000, guid: 1096368062cbb0e4aaec3e93535a5a60, type: 2}
+  - {fileID: 7400000, guid: f73080afeb7ff6940b7784ecf8c7f941, type: 2}
+  standAnims:
+  - {fileID: 7400000, guid: 78f38c14a422d264399169b19391e41e, type: 2}
+  standCheerAnims:
+  - {fileID: 7400000, guid: 6b6641a7e48e8604f8fe98595658f227, type: 2}
+  - {fileID: 7400000, guid: b0143e184745fdb44baf966f261ca24b, type: 2}
+  - {fileID: 7400000, guid: 78f38c14a422d264399169b19391e41e, type: 2}
+  staticAnimations:
+  - {fileID: 7400000, guid: 99f4ee5d062c228488385acddb1abf3d, type: 2}
+  - {fileID: 7400000, guid: 5d53b85a2c268e34182170f45a38c4f8, type: 2}
+  - {fileID: 7400000, guid: 2092f04f4dbe56b41a479a3e57184b73, type: 2}
+  - {fileID: 7400000, guid: 7f5c2da152c5f494b89b98e613fbd827, type: 2}
+  skinMeshes: []
+  shirtMeshes:
+  - {fileID: -7386861914577863177, guid: 8e77c15c8f4f6d044886bcd8b6a715e6, type: 3}
+  - {fileID: -7386861914577863177, guid: 7971a68f2c398584c94ae42766db4266, type: 3}
+  - {fileID: -7386861914577863177, guid: f00460574ac66e742a9e63f0568aa9d4, type: 3}
+  - {fileID: -7386861914577863177, guid: ff58e1c34f0805a47a4c6f7e4c103700, type: 3}
+  - {fileID: -7386861914577863177, guid: ba8f3abb61d572f489cb876e65f54b77, type: 3}
+  pantsMeshes:
+  - {fileID: 6475887002624815441, guid: 8e77c15c8f4f6d044886bcd8b6a715e6, type: 3}
+  - {fileID: 6475887002624815441, guid: 7971a68f2c398584c94ae42766db4266, type: 3}
+  - {fileID: 6475887002624815441, guid: f00460574ac66e742a9e63f0568aa9d4, type: 3}
+  - {fileID: 6475887002624815441, guid: ff58e1c34f0805a47a4c6f7e4c103700, type: 3}
+  - {fileID: 6475887002624815441, guid: ba8f3abb61d572f489cb876e65f54b77, type: 3}
+  shoeMeshes: []
+  hairMeshes: []
+  shirtMeshRenderer: {fileID: 729038159449788403}
+  skinMeshRenderer: {fileID: 2644747761025662263}
+  pantsMeshRenderer: {fileID: 5903954989789738055}
+  hairMeshRenderer: {fileID: 4780017946747682975}
+  shoeMeshRenderer: {fileID: 0}
+--- !u!1001 &3629277232918931329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6173053900511452925, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0abd2a5cfcad8ad4282a9b9e538ee7ab, type: 2}
+    - target: {fileID: -6057140222963153312, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tFrom animation clip 'ManSitTest_01_Edited'"
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2039348181509844026, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23f5659774db4dc44a80c338734d585b, type: 2}
+    - target: {fileID: -1251746226605572178, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1149613533337950434, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23f5659774db4dc44a80c338734d585b, type: 2}
+    - target: {fileID: -927199367670048503, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Name
+      value: Stefani Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1651062367082650294, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2959467708922500008, guid: 2f8e60abda4df1e419780e9516afa28e,
+        type: 3}
+    - target: {fileID: 1651062367082650294, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23f5659774db4dc44a80c338734d585b, type: 2}
+    - target: {fileID: 4054321849461254258, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23f5659774db4dc44a80c338734d585b, type: 2}
+    - target: {fileID: 7899031747737506628, guid: 7093735f39c8581409c711a23b7f062a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7093735f39c8581409c711a23b7f062a, type: 3}
+--- !u!1 &4718687725384171144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 7093735f39c8581409c711a23b7f062a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3629277232918931329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &2644747761025662263 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1651062367082650294, guid: 7093735f39c8581409c711a23b7f062a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3629277232918931329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &5903954989789738055 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2039348181509844026, guid: 7093735f39c8581409c711a23b7f062a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3629277232918931329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &4780017946747682975 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -1149613533337950434, guid: 7093735f39c8581409c711a23b7f062a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3629277232918931329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &729038159449788403 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4054321849461254258, guid: 7093735f39c8581409c711a23b7f062a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3629277232918931329}
+  m_PrefabAsset: {fileID: 0}
