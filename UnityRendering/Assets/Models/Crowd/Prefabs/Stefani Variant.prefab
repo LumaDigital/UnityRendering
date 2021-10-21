@@ -32,12 +32,9 @@ MonoBehaviour:
   - {fileID: 7400000, guid: 6b6641a7e48e8604f8fe98595658f227, type: 2}
   - {fileID: 7400000, guid: b0143e184745fdb44baf966f261ca24b, type: 2}
   - {fileID: 7400000, guid: 78f38c14a422d264399169b19391e41e, type: 2}
-  staticAnimations:
-  - {fileID: 7400000, guid: 99f4ee5d062c228488385acddb1abf3d, type: 2}
-  - {fileID: 7400000, guid: 5d53b85a2c268e34182170f45a38c4f8, type: 2}
-  - {fileID: 7400000, guid: 2092f04f4dbe56b41a479a3e57184b73, type: 2}
-  - {fileID: 7400000, guid: 7f5c2da152c5f494b89b98e613fbd827, type: 2}
-  skinMeshes: []
+  skinMeshes:
+  - {fileID: 2959467708922500008, guid: 2f8e60abda4df1e419780e9516afa28e, type: 3}
+  - {fileID: 2959467708922500008, guid: b985aaec118db9b4ab44f5289c415c65, type: 3}
   shirtMeshes:
   - {fileID: -7386861914577863177, guid: 8e77c15c8f4f6d044886bcd8b6a715e6, type: 3}
   - {fileID: -7386861914577863177, guid: 7971a68f2c398584c94ae42766db4266, type: 3}

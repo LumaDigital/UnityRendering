@@ -9,8 +9,6 @@ public class CrowdManager : MonoBehaviour
     [SerializeField]
     private float percentageEmptySeat = 15f;
     [SerializeField]
-    private float percentageStatic = 50f;
-    [SerializeField]
     private float percentageSitting = 50f;
     [SerializeField]
     private float percentageCheering = 50f;
@@ -45,7 +43,6 @@ public class CrowdManager : MonoBehaviour
                 lookAtTarget,
                 crowdInstanceParent,
                 percentageEmptySeat,
-                percentageStatic,
                 percentageSitting,
                 percentageCheering);
         }

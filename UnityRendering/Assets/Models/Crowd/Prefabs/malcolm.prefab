@@ -1776,7 +1776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4889591290664168506
 Transform:
   m_ObjectHideFlags: 0
@@ -2084,15 +2084,16 @@ MonoBehaviour:
   - {fileID: 7400000, guid: fa8f25e558834cb49be314a094e0f77b, type: 2}
   - {fileID: 7400000, guid: 521daa553dec34e48a5a13068e67930e, type: 2}
   standAnims:
-  - {fileID: 7400000, guid: fa3582f790e3d954db5313158fc3474f, type: 2}
+  - {fileID: 7400000, guid: cb0617e23665a2c4a881a48f984f0db9, type: 2}
   standCheerAnims:
   - {fileID: 7400000, guid: fe0087539b281294ba2d6b800512a3e1, type: 2}
   - {fileID: 7400000, guid: cb0617e23665a2c4a881a48f984f0db9, type: 2}
   - {fileID: 7400000, guid: a3d9625aa9fd65d419abcc77f1cd8297, type: 2}
-  staticAnimations:
-  - {fileID: 7400000, guid: 6e94bf604f50a094ba7b72806092cf4c, type: 2}
-  - {fileID: 7400000, guid: 1656066f3afa05c429128bbe000e0ee5, type: 2}
-  skinMeshes: []
+  skinMeshes:
+  - {fileID: 2959467708922500008, guid: e5dded8bc35b2d04497c1be53057ac91, type: 3}
+  - {fileID: 2959467708922500008, guid: 5b14032058d28a046ae291d532afc792, type: 3}
+  - {fileID: 2959467708922500008, guid: 40f7a8fa106ddb64687020a4b8cfb810, type: 3}
+  - {fileID: 2959467708922500008, guid: 67163c4a7ccf5d8459a4cd1a94950316, type: 3}
   shirtMeshes:
   - {fileID: -7386861914577863177, guid: 4e8e7e2c1ddcdd54082b1380b0d75baa, type: 3}
   - {fileID: -7386861914577863177, guid: d61d18c002d4cdf4cb04f2246ecfff50, type: 3}

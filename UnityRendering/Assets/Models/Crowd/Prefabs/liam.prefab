@@ -545,15 +545,16 @@ MonoBehaviour:
   - {fileID: 7400000, guid: fa8f25e558834cb49be314a094e0f77b, type: 2}
   - {fileID: 7400000, guid: 521daa553dec34e48a5a13068e67930e, type: 2}
   standAnims:
-  - {fileID: 7400000, guid: fa3582f790e3d954db5313158fc3474f, type: 2}
+  - {fileID: 7400000, guid: fe0087539b281294ba2d6b800512a3e1, type: 2}
   standCheerAnims:
   - {fileID: 7400000, guid: fe0087539b281294ba2d6b800512a3e1, type: 2}
   - {fileID: 7400000, guid: cb0617e23665a2c4a881a48f984f0db9, type: 2}
   - {fileID: 7400000, guid: a3d9625aa9fd65d419abcc77f1cd8297, type: 2}
-  staticAnimations:
-  - {fileID: 7400000, guid: 6e94bf604f50a094ba7b72806092cf4c, type: 2}
-  - {fileID: 7400000, guid: 1656066f3afa05c429128bbe000e0ee5, type: 2}
-  skinMeshes: []
+  skinMeshes:
+  - {fileID: 2959467708922500008, guid: db11d7f6ca492154cb711069f5be8348, type: 3}
+  - {fileID: 2959467708922500008, guid: ef4e32b712e6c994bb0fcf266d92be29, type: 3}
+  - {fileID: 2959467708922500008, guid: a972e6e1f0dd62a4bb485e728da30b2c, type: 3}
+  - {fileID: 2959467708922500008, guid: 2da1239636740b441bbef2c49de26f7d, type: 3}
   shirtMeshes:
   - {fileID: -7386861914577863177, guid: ce7b51709a0ea7f4086fc4b4eb8e6c75, type: 3}
   - {fileID: -7386861914577863177, guid: fc9a70ff38670974fba367996b517f4f, type: 3}

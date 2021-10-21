@@ -67,7 +67,6 @@ public class CrowdSpline : MonoBehaviour
         Transform lookAtTarget,
         Transform parent,
         float percentageEmptySeat,
-        float percentageStatic,
         float percentageSitting,
         float percentageCheering)
     {
@@ -98,7 +97,6 @@ public class CrowdSpline : MonoBehaviour
                     crowdEntity.LookAtTarget = lookAtTarget;
 
                     crowdEntity.Init(
-                        percentageStatic,
                         percentageSitting,
                         percentageCheering);
                 }
