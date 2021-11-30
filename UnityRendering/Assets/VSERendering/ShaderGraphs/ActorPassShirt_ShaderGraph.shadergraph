@@ -169,9 +169,6 @@
             "m_Id": "80aac8791d384c309191e3463d11bb61"
         },
         {
-            "m_Id": "6c0bfb1811b64e24b29af8b3612bfa5e"
-        },
-        {
             "m_Id": "d4a5139da28244b1ad305a22cbc4c9eb"
         },
         {
@@ -881,9 +878,6 @@
                 "m_Id": "80aac8791d384c309191e3463d11bb61"
             },
             {
-                "m_Id": "6c0bfb1811b64e24b29af8b3612bfa5e"
-            },
-            {
                 "m_Id": "d4a5139da28244b1ad305a22cbc4c9eb"
             },
             {
@@ -929,7 +923,7 @@
     "m_ReceiveSSR": true,
     "m_ReceiveSSRTransparent": false,
     "m_SpecularAA": false,
-    "m_SpecularOcclusionMode": 0,
+    "m_SpecularOcclusionMode": 1,
     "m_OverrideBakedGI": false
 }
 
@@ -3094,39 +3088,6 @@
         "Y",
         "Z"
     ]
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "6c0bfb1811b64e24b29af8b3612bfa5e",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.CoatMask",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "f393493de08944dfbde2ef61de52b809"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.CoatMask"
 }
 
 {
@@ -6376,21 +6337,6 @@
     "m_Labels": [
         "X"
     ]
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "f393493de08944dfbde2ef61de52b809",
-    "m_Id": 0,
-    "m_DisplayName": "Coat Mask",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "CoatMask",
-    "m_StageCapability": 2,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": []
 }
 
 {
